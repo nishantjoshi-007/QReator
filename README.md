@@ -66,8 +66,5 @@ To set up this project, you'll need Python and pip installed on your machine. Fo
 - qrcode[pil] (for QR code generation)
 - reportlab (for PDF generation)
 
-## Author
-- [Nishant Joshi](https://yourwebsite.com)
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
