@@ -19,7 +19,7 @@ Welcome to the 'qrcodecreator' Github Repository. This project is a Streamlit-ba
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/nishantjoshi-007/qrcodecreator.git
-   cd qr_code_generator
+   cd qrcodecreator
    ```
 
 2. **Install Dependencies**
