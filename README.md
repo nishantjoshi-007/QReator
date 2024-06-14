@@ -1,6 +1,6 @@
 # :star2: QR Code Creator
 <div align='center'>
-Welcome to the 'qrcodecreator' Github Repository. This project is a web application built with Streamlit that generates QR codes based on user-provided data. Users can customize the QR code by optionally embedding a logo and selecting a color. The application also provides the functionality to download the generated QR code as a PNG or PDF file.
+Welcome to the 'qrcodecreator' Github Repository. This project is a Streamlit-based web application that allows users to create customizable QR codes with options for color, logo embedding, and downloadable formats. Designed to be user-friendly and functional, it caters to various needs like marketing, event management, and personal use. Dive into the repository to see the code and try out the app.
 <h4> <a href=https://qrcodecreator.streamlit.app/>Live Demo</a> <span> · </span> <a href="https://github.com/nishantjoshi-007/qrcodecreator/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/nishantjoshi-007/qrcodecreator/issues"> Request Feature </a> </h4>
 </div>
 
