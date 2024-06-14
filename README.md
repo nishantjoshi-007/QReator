@@ -1,20 +1,24 @@
-# QR Code Generator
+# :star2: QR Code Creator
+<div align='center'>
+Welcome to the 'qrcodecreator' Github Repository. This project is a web application built with Streamlit that generates QR codes based on user-provided data. Users can customize the QR code by optionally embedding a logo and selecting a color. The application also provides the functionality to download the generated QR code as a PNG or PDF file.
+<h4> <a href=https://qrcodecreator.streamlit.app/>Live Demo</a> <span> · </span> <a href="https://github.com/nishantjoshi-007/qrcodecreator/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/nishantjoshi-007/qrcodecreator/issues"> Request Feature </a> </h4>
+</div>
 
-## Project Description
-This project is a web application built with Streamlit that generates QR codes based on user-provided data. Users can customize the QR code by optionally embedding a logo and selecting a color. The application also provides the functionality to download the generated QR code as a PNG or PDF file.
+# :notebook_with_decorative_cover: Table of Contents
+- [Getting Started](#toolbox-getting-started)
+- [Contributing](#wave-contributing)
+- [License](#warning-license)
 
-## Features
-- **Custom Color Selection**: Users can choose any color for the QR code to enhance visibility and aesthetics.
-- **Logo Embedding**: Users can embed a logo in the center of the QR code, making it more branded and recognizable.
-- **Downloadable Outputs**: The generated QR code can be downloaded in PNG or PDF formats, suitable for various applications like marketing, event management, and personal use.
-- **User-Friendly Interface**: With Streamlit, the application offers a clean and interactive interface that is easy to navigate.
+## :toolbox: Getting Started
 
-## Installation
-To set up this project, you'll need Python and pip installed on your machine. Follow these steps:
+### :bangbang: Prerequisites
+- Install Visual Studio Code as Code Editor<a href="https://code.visualstudio.com/Download"> Here</a>
+- To set up this project, you'll need Python and pip installed on your machine.<a href="https://www.python.org/downloads/"> Here</a>
 
+### :gear: Installation
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/nishantjoshi-007/qrcodeGEN.git
+   git clone https://github.com/nishantjoshi-007/qrcodecreator.git
    cd qr_code_generator
    ```
 
@@ -30,41 +34,14 @@ To set up this project, you'll need Python and pip installed on your machine. Fo
    streamlit run app.py
    ```
 
-## Usage
-1. **Start the Application**: Run the command `streamlit run app.py`. This will open the application in your default web browser.
-2. **Input URL**: Enter the URL or data you want to convert into a QR code.
-3. **Customization**:
-   - **Color**: Pick a color for the QR code using the color picker.
-   - **Logo**: If you want to include a logo, select 'Yes' for the logo option and upload an image file.
-4. **Generate QR Code**: Click on 'Generate QR Code' to see the result.
-5. **Download**: Choose your preferred format (PNG or PDF) and download the generated QR code.
+### :dart: Features
+- **Custom Color Selection**: Users can choose any color for the QR code to enhance visibility and aesthetics.
+- **Logo Embedding**: Users can embed a logo in the center of the QR code, making it more branded and recognizable.
+- **Downloadable Outputs**: The generated QR code can be downloaded in PNG or PDF formats, suitable for various applications like marketing, event management, and personal use.
+- **User-Friendly Interface**: With Streamlit, the application offers a clean and interactive interface that is easy to navigate.
 
-## Code Overview
-### Main Functions
+## :wave: Contributing
+<img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" /> Contributions to the CarVis are always welcome! Whether it's reporting bugs, suggesting new features, or improving the code, your input is valuable. Please feel free to fork this repository, make your changes, and submit a pull request.
 
-- **`generate_qr_code(data, logo_image=None, color='black')`**:
-  - **Parameters**:
-    - `data`: The information to encode in the QR code.
-    - `logo_image`: An optional image object to embed in the center of the QR code.
-    - `color`: Color for the QR code (default is black).
-  - **Returns**: An image object containing the generated QR code.
-  - **Description**: This function creates a QR code from the provided data. If a logo is provided, it embeds the logo at the center. The QR code is colored based on the user's choice.
-
-- **`create_pdf_with_image(image)`**:
-  - **Parameter**:
-    - `image`: An image object of the QR code.
-  - **Returns**: A byte stream containing the PDF file.
-  - **Description**: Converts the given QR code image into a PDF file and returns the PDF file as a byte stream.
-
-### Styles
-- The application uses custom CSS for styling, defined in a multi-line string passed to `st.markdown()`. It styles the container, buttons, and hover effects to improve the user interface.
-
-## Requirements
-- Python 3.11
-- Streamlit
-- Pillow (for image handling)
-- qrcode[pil] (for QR code generation)
-- reportlab (for PDF generation)
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## :warning: License
+Distributed under the MIT License. See <a href="https://github.com/nishantjoshi-007/qrcodecreator/blob/main/LICENSE">LICENSE</a> for more information.
