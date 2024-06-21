@@ -18,11 +18,11 @@ Welcome to the 'QReator' Github Repository. This project is a Streamlit-based we
 ### :gear: Installation
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/nishantjoshi-007/qreator.git
+   git clone https://github.com/nishantjoshi-007/QReator.git
    ```
 2. **Move in the qreator Folder**
    ```bash
-   cd qreator
+   cd QReator
    ```
    
 3. **Install Dependencies**
@@ -51,4 +51,4 @@ Welcome to the 'QReator' Github Repository. This project is a Streamlit-based we
 <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" /> Contributions to the qrcodecreator are always welcome! Whether it's reporting bugs, suggesting new features, or improving the code, your input is valuable. Please feel free to fork this repository, make your changes, and submit a pull request.
 
 ## :warning: License
-Distributed under the MIT License. See <a href="https://github.com/nishantjoshi-007/qrcodecreator/blob/main/LICENSE">LICENSE</a> for more information.
+Distributed under the MIT License. See <a href="https://github.com/nishantjoshi-007/QReator/blob/main/LICENSE">LICENSE</a> for more information.
