@@ -18,11 +18,11 @@ Welcome to the 'QReator' Github Repository. This project is a Streamlit-based we
 ### :gear: Installation
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/nishantjoshi-007/qrcodecreator.git
+   git clone https://github.com/nishantjoshi-007/qreator.git
    ```
-2. **Move in the qrcodecreator Folder**
+2. **Move in the qreator Folder**
    ```bash
-   cd qrcodecreator
+   cd qreator
    ```
    
 3. **Install Dependencies**
