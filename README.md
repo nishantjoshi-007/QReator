@@ -1,7 +1,7 @@
-# :star2: QR Code Creator
+# :star2: QReator
 <div align='center'>
-Welcome to the 'qrcodecreator' Github Repository. This project is a Streamlit-based web application that allows users to create customizable QR codes with options for color, logo embedding, and downloadable formats. Designed to be user-friendly and functional, it caters to various needs like marketing, event management, and personal use. Dive into the repository to see the code and try out the app.
-<h4> <a href=https://qrcodecreator.streamlit.app/>Live Demo</a> <span> · </span> <a href="https://github.com/nishantjoshi-007/qrcodecreator/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/nishantjoshi-007/qrcodecreator/issues"> Request Feature </a> </h4>
+Welcome to the 'QReator' Github Repository. This project is a Streamlit-based web application that allows users to create customizable QR codes with options for color, logo embedding, and downloadable formats. Designed to be user-friendly and functional, it caters to various needs like marketing, event management, and personal use. Dive into the repository to see the code and try out the app.
+<h4> <a href=https://qreator.streamlit.app/>Live Demo</a> <span> · </span> <a href="https://github.com/nishantjoshi-007/QReator/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/nishantjoshi-007/QReator/issues"> Request Feature </a> </h4>
 </div>
 
 # :notebook_with_decorative_cover: Table of Contents
@@ -27,9 +27,13 @@ Welcome to the 'qrcodecreator' Github Repository. This project is a Streamlit-ba
    
 3. **Install Dependencies**
    - Ensure you have Python 3.11 or newer.
-   - Install the required Python packages using pip:
+   - Install the Python package for virtual environment using pip:
      ```bash
-     pip install -r requirements.txt
+     pip install pipenv
+     ```
+   - Install the required Python packages using pipenv:
+     ```bash
+     pipenv install
      ```
 
 4. **Run the Application**

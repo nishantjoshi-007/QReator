@@ -7,6 +7,8 @@ import io
 import tempfile
 import os
 
+st.set_page_config("QReator", "./icon.ico")
+
 def generate_qr_code(data, logo_image=None, color='black'):
     # Create QR code
     qr = qrcode.QRCode(
